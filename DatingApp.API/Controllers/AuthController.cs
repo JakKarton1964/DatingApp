@@ -22,7 +22,7 @@ namespace DatingApp.API.Controllers {
 
         }
 
-        [HttpPost ("repository")]
+        [HttpPost ("register")]
         public async Task<IActionResult> Register (UserForRegisterDto userForRegisterDto) {
             // validate request
 

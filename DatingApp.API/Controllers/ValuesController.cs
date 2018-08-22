@@ -21,14 +21,9 @@ namespace Dating.API.Controllers {
         }
 
         // GET api/values
+        [AllowAnonymous]
         [HttpGet]
-        // public IActionResult  GetValues () {
-        //     // throw new Exception("Test Exeption");
-        //     var values = _context.Values.ToList();
-
-        //     return Ok(values);
-        // }
-
+        
         public async Task<IActionResult>  GetValues () {
             // throw new Exception("Test Exeption");
             var values = await _context.Values.ToListAsync();
