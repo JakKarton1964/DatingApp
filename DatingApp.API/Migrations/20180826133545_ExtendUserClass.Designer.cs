@@ -47,7 +47,7 @@ namespace Dating.API.Migrations
 
                     b.Property<string>("City");
 
-                    b.Property<string>("County");
+                    b.Property<string>("Country");
 
                     b.Property<DateTime>("Created");
 

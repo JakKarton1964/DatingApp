@@ -13,7 +13,7 @@ namespace Dating.API.Migrations
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-                name: "County",
+                name: "Country",
                 table: "Users",
                 nullable: true);
 
@@ -99,7 +99,7 @@ namespace Dating.API.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "County",
+                name: "Country",
                 table: "Users");
 
             migrationBuilder.DropColumn(
